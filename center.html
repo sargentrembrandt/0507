@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .container{
+            width:600px;
+            height: 400px;
+            background-color: #78b0c4;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .container::before{
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 50px;
+            
+        }
+        .box{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, asperiores, unde. Cumque delectus voluptatibus itaque officia excepturi, in modi ab at temporibus officiis vero, rerum, deleniti consequatur consectetur dicta. Hic.
+        </div>
+    </div>
+</body>
+</html>
